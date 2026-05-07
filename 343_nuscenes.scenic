@@ -15,10 +15,10 @@ behavior leftTurnBehavior(speed, trajectory):
     do FollowLaneBehavior(20) for 20 seconds
 
 behavior EgoBehavior():
-    do DriveAvoidingCollisions(target_speed=12, avoidance_threshold=10)
+    # do DriveAvoidingCollisions(target_speed=12, avoidance_threshold=10)
 
-    # do FollowLaneBehavior(0) for 6 seconds
-    # do FollowLaneBehavior(20) for 10 seconds
+    do FollowLaneBehavior(0) for 6 seconds
+    do FollowLaneBehavior(20) for 10 seconds
 
 
 behavior carBesideEgoBehavior():

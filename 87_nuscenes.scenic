@@ -1,4 +1,4 @@
-param map = localPath('../assets/maps/CARLA/Town01.xodr')
+param map = localPath('maps/Town01.xodr')
 model scenic.domains.driving.model
 
 STEPS_PER_SEC = 10
