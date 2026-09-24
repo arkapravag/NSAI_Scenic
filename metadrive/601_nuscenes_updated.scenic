@@ -1,6 +1,6 @@
 # Could not find a way to make pedestrians stop and then start walking again
 
-param map = localPath('../maps/Town01.xodr')
+param map = localPath('../../maps/Town01.xodr')
 model scenic.domains.driving.model
 
 PARKED_CAR_OFFSET = 1   
